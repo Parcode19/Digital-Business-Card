@@ -46,3 +46,6 @@ export default function Contact() {
         </div>
     )
 }
+
+
+// inside div -> logo + info
