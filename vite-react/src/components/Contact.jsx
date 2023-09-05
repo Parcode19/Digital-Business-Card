@@ -22,6 +22,7 @@ export default function Contact() {
         document.execCommand('copy');
         document.body.removeChild(hiddenInput);
         setIsCopied(true);
+        setTimeout(() => setIsCopied(false), 3000);
     };
 
     return (
@@ -45,7 +46,12 @@ export default function Contact() {
                 <a href="#" className="call-icon" onClick={handleCopyNumber}>
                     <img src={call} width="25px" alt="Copy Phone Number"></img>
                 </a> 
-                {isCopied && <span style={{ marginLeft: '5px' }}>Copied!</span>}
+                {isCopied && (
+                    <div>
+                        <span className='pointer'></span>
+                        <span className="copied-text">Copied!</span>
+                    </div>
+                )}
             </div>
             <div className="contact--content">
                 <a href={instagram} className="insta-icon">
