@@ -103,8 +103,8 @@ h3 {
 
 .copied-text {
     position: absolute;
-    top: 37px;
-    right: 102px;
+    top: 42px;
+    right: 105px;
     background-color: #333;
     color: #fff;
     padding: 5px 10px;
@@ -114,8 +114,8 @@ h3 {
 
 .pointer {
     position: absolute;
-    top: 33px;
-    right: 140px;
+    top: 39px;
+    right: 144px;
     width: 9px;
     height: 9px;
     transform: rotate(45deg);

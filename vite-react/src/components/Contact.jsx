@@ -8,7 +8,7 @@ import insta from "../assets/instagram (1).png";
 export default function Contact() {
     const githubLink = "https://github.com/Parcode19";
     const linkedinLink = "https://linkedin.com/in/parth-patel-433703266";
-    const instagram = "https://www.instagram.com/";
+    const instagram = "https://www.instagram.com/_parth_1921/";
     const number = "+1 (236) 995-2972";
     const gmail = "parthrp15@gmail.com";
 
