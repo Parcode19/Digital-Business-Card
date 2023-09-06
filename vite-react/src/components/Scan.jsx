@@ -6,4 +6,4 @@ export default function Scan() {
             <img src={qrCode} width="100px"></img>
         </div>
     )
-}
+}  
