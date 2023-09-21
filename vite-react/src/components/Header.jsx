@@ -1,4 +1,4 @@
-import Profile from "../assets/img2.jpg"
+import Profile from "../assets/img.png"
 export default function Header() {
     return (
         <div className="header--container"> 
